@@ -1,0 +1,222 @@
+/* ── Navbar base ─────────────────────────────────────────────── */
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  font-family: inherit;
+  background: #f7f6f3;
+  padding: 20px;
+  border-bottom: 1px solid #e4e3df;
+}
+
+.navbar__inner {
+  margin: 0 auto;
+  padding: 0 32px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+}
+
+/* ── Logo ────────────────────────────────────────────────────── */
+.navbar__logo {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  text-decoration: none;
+  flex-shrink: 0;
+  margin-right: auto;
+  color: #000000;
+  transition: opacity 0.12s;
+}
+
+.navbar__logo-image {
+  height: 200px;
+  width: auto;
+}
+
+.navbar__logo:hover {
+  opacity: 0.7;
+}
+
+/* ── Desktop menu ────────────────────────────────────────────── */
+.navbar__menu {
+  display: flex;
+  align-items: center;
+  gap: 0;
+  height: 100%;
+}
+
+.navbar__item {
+  position: relative;
+  height: 52px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar__link {
+  display: flex;
+  align-items: center;
+  font-size: 12.5px;
+  color: #000000;
+  text-decoration: none;
+  padding: 0 13px;
+  height: 100%;
+  white-space: nowrap;
+  transition: color 0.12s;
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
+  background: none;
+  font-family: inherit;
+}
+
+.navbar__link:hover {
+  color: var(--theme-colour);
+}
+
+.navbar__link--open {
+  color: var(--theme-colour);
+  border-bottom-color: var(--theme-colour);
+}
+
+/* ── Chevron ─────────────────────────────────────────────────── */
+.navbar__chevron {
+  margin-left: 3px;
+  transition: transform 0.18s ease;
+  flex-shrink: 0;
+}
+
+.navbar__chevron--open {
+  transform: rotate(180deg);
+}
+
+/* ── Dropdown panel ──────────────────────────────────────────── */
+.navbar__dropdown {
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 10px;
+  padding: 20px 24px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 0 32px;
+  min-width: 360px;
+  z-index: 100;
+  animation: ddFade 0.14s ease;
+  background: #ffffff;
+  border: 1px solid #e8e8e4;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+@keyframes ddFade {
+  from {
+    opacity: 0;
+    transform: translateX(-50%) translateY(-4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
+}
+
+.navbar__dropdown-heading {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin: 0 0 10px;
+  color: #aaaaaa;
+}
+
+.navbar__dropdown-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar__dropdown-link {
+  display: block;
+  font-size: 13px;
+  text-decoration: none;
+  padding: 4px 0;
+  transition: color 0.12s;
+  color: #444444;
+}
+
+.navbar__dropdown-link:hover {
+  color: var(--theme-colour);
+}
+
+/* ── Icon buttons (hamburger) ────────────────────────────────── */
+.navbar__icon-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  cursor: pointer;
+  flex-shrink: 0;
+  color: #888884;
+  border: 1px solid #e4e3df;
+  transition:
+    border-color 0.12s,
+    color 0.12s;
+}
+
+.navbar__icon-btn:hover {
+  color: var(--theme-colour);
+  border-color: var(--theme-colour);
+}
+
+.navbar__hamburger {
+  margin-left: 8px;
+  width: 32px;
+  height: 32px;
+  border-radius: 6px;
+  display: none;
+}
+
+/* ── Mobile drawer ───────────────────────────────────────────── */
+.navbar__mobile-drawer {
+  padding: 12px 0 20px;
+  background: #f7f6f3;
+  border-top: 1px solid #e4e3df;
+}
+
+.navbar__mobile-item-btn {
+  width: 100%;
+  background: none;
+  border: none;
+  padding: 10px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 13px;
+  cursor: pointer;
+  text-align: left;
+  font-family: inherit;
+  color: #2a2a27;
+}
+
+.navbar__mobile-links {
+  padding: 4px 32px 12px 48px;
+}
+
+.navbar__mobile-link {
+  display: block;
+  font-size: 13px;
+  text-decoration: none;
+  padding: 5px 0;
+  color: #888884;
+}
+
+/* ── Responsive ──────────────────────────────────────────────── */
+@media (max-width: 768px) {
+  .navbar__hamburger {
+    display: flex !important;
+  }
+
+  .navbar__menu > .navbar__item:not(:last-child):not(:nth-last-child(2)) {
+    display: none;
+  }
+}
