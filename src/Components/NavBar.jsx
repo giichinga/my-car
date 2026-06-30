@@ -2,7 +2,7 @@ import { useState, useRef, useEffect } from "react";
 import "../assets/Styles/Navbar.css";
 import logo from "../assets/Images/logo.png";
 
-// ── Dropdown data ──────────────────────────────────────────────
+// ─ Dropdown data ─
 const NAV_ITEMS = [
   {
     label: "Vehicles",
@@ -73,7 +73,7 @@ const NAV_ITEMS = [
   { label: "FAQ", href: "#" },
 ];
 
-// ── Chevron icon ───────────────────────────────────────────────
+// ─ dropdown icon ─
 function ChevronDown({ open }) {
   return (
     <svg
@@ -95,7 +95,7 @@ function ChevronDown({ open }) {
   );
 }
 
-// ── Hamburger icon ─────────────────────────────────────────────
+// ─ Hamburger icon ─
 function HamburgerIcon() {
   return (
     <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true">
@@ -109,7 +109,7 @@ function HamburgerIcon() {
   );
 }
 
-// ── Dropdown panel ─────────────────────────────────────────────
+// ─ Dropdown panel ─
 function DropdownPanel({ columns }) {
   return (
     <div className="navbar__dropdown">
@@ -131,7 +131,7 @@ function DropdownPanel({ columns }) {
   );
 }
 
-// ── Main Navbar ────────────────────────────────────────────────
+// ─ Main Navbar ─
 export default function Navbar() {
   const [openDropdown, setOpenDropdown] = useState(null);
   const [mobileOpen, setMobileOpen] = useState(false);

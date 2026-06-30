@@ -5,11 +5,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  background-image: url(../Images/brands.jpg), linear-gradient(#fff, #fff);
   background-color: #15171c;
+  background-blend-mode: multiply;
   background-size: cover;
   background-position: center;
   padding: 56px 24px 64px;
-  font-family: "Inter", system-ui, sans-serif;
+  font-family: inherit;
 }
 
 .hero-search__content {
@@ -78,7 +80,7 @@
 }
 
 .hero-search__input:focus {
-  outline: 2px solid #c1392a;
+  outline: 2px solid var(--theme-colour);
   outline-offset: 2px;
 }
 
@@ -110,7 +112,7 @@
 }
 
 .hero-search__clear-input {
-  background: #c1392a;
+  background: var(--theme-colour);
   color: #ffffff;
 }
 
@@ -186,7 +188,7 @@
   letter-spacing: 0.04em;
   text-transform: uppercase;
   color: #ffffff;
-  background: #d9622b;
+  background: var(--theme-colour);
   padding: 2px 7px;
   border-radius: 100px;
 }
@@ -203,7 +205,7 @@
   gap: 4px;
   font-size: 12.5px;
   font-weight: 600;
-  color: #e8825a;
+  color: var(--theme-colour);
   white-space: nowrap;
 }
 
@@ -278,7 +280,7 @@
 }
 
 .hero-search__select:focus {
-  outline: 2px solid #c1392a;
+  outline: 2px solid var(--theme-colour);
   outline-offset: 1px;
 }
 
@@ -306,7 +308,7 @@
 }
 
 .hero-search__range-input:focus {
-  outline: 2px solid #c1392a;
+  outline: 2px solid var(--theme-colour);
   outline-offset: 1px;
 }
 
@@ -317,6 +319,7 @@
   margin: 0;
 }
 .hero-search__range-input[type="number"] {
+  appearance: textfield;
   -moz-appearance: textfield;
 }
 
@@ -367,7 +370,7 @@
 }
 
 .hero-search__radio input:checked + .hero-search__radio-dot {
-  border-color: #c1392a;
+  border-color: var(--theme-colour);
 }
 
 .hero-search__radio input:checked + .hero-search__radio-dot::after {
@@ -375,11 +378,11 @@
   position: absolute;
   inset: 3px;
   border-radius: 50%;
-  background: #c1392a;
+  background: var(--theme-colour);
 }
 
 .hero-search__radio input:focus-visible + .hero-search__radio-dot {
-  outline: 2px solid #c1392a;
+  outline: 2px solid var(--theme-colour);
   outline-offset: 2px;
 }
 
@@ -451,5 +454,8 @@
 
   .hero-search__clear-btn {
     justify-content: center;
+  }
+  .hero-search__verified-title {
+    display: none;
   }
 }
