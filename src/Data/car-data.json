@@ -1,0 +1,544 @@
+{
+  "vehicles": [
+    {
+      "id": "v001",
+      "type": "vehicle",
+      "make": "Toyota",
+      "model": "Land Cruiser",
+      "year": 2022,
+      "price": 8500000,
+      "currency": "KES",
+      "mileage": 32000,
+      "mileage_unit": "km",
+      "condition": "used",
+      "transmission": "automatic",
+      "fuel_type": "diesel",
+      "engine": "4.5L V8",
+      "color": "Pearl White",
+      "body_type": "SUV",
+      "doors": 5,
+      "seats": 7,
+      "drive_train": "4WD",
+      "location": "Nairobi",
+      "description": "Well maintained Land Cruiser with full service history. Single owner, accident-free. Comes with extra alloys and roof rack.",
+      "features": ["Leather seats", "Sunroof", "Reverse camera", "Cruise control", "Heated seats", "Apple CarPlay"],
+      "images": [
+        "https://placehold.co/800x500?text=Land+Cruiser+Front",
+        "https://placehold.co/800x500?text=Land+Cruiser+Interior",
+        "https://placehold.co/800x500?text=Land+Cruiser+Side"
+      ],
+      "badge": "Featured",
+      "listed_date": "2025-05-10",
+      "seller": {
+        "name": "AutoHub Kenya",
+        "phone": "+254712345678",
+        "verified": true
+      }
+    },
+    {
+      "id": "v002",
+      "type": "vehicle",
+      "make": "Mazda",
+      "model": "CX-5",
+      "year": 2021,
+      "price": 3200000,
+      "currency": "KES",
+      "mileage": 47000,
+      "mileage_unit": "km",
+      "condition": "used",
+      "transmission": "automatic",
+      "fuel_type": "petrol",
+      "engine": "2.0L Skyactiv",
+      "color": "Soul Red Crystal",
+      "body_type": "SUV",
+      "doors": 5,
+      "seats": 5,
+      "drive_train": "AWD",
+      "location": "Mombasa",
+      "description": "Stunning Soul Red CX-5 in excellent condition. Full Mazda service history, all original parts.",
+      "features": ["Blind spot monitoring", "Lane keep assist", "Heads-up display", "360 camera", "Bose sound system"],
+      "images": [
+        "https://placehold.co/800x500?text=CX-5+Front",
+        "https://placehold.co/800x500?text=CX-5+Interior",
+        "https://placehold.co/800x500?text=CX-5+Rear"
+      ],
+      "badge": "Hot Deal",
+      "listed_date": "2025-06-01",
+      "seller": {
+        "name": "Mombasa Motors",
+        "phone": "+254722345678",
+        "verified": true
+      }
+    },
+    {
+      "id": "v003",
+      "type": "vehicle",
+      "make": "Subaru",
+      "model": "Forester",
+      "year": 2020,
+      "price": 2750000,
+      "currency": "KES",
+      "mileage": 61000,
+      "mileage_unit": "km",
+      "condition": "used",
+      "transmission": "CVT",
+      "fuel_type": "petrol",
+      "engine": "2.5L Boxer",
+      "color": "Horizon Blue Pearl",
+      "body_type": "SUV",
+      "doors": 5,
+      "seats": 5,
+      "drive_train": "AWD",
+      "location": "Nairobi",
+      "description": "Clean Forester with Eyesight driver assist technology. No accidents, full service history.",
+      "features": ["EyeSight driver assist", "X-MODE", "Reverse camera", "Adaptive cruise control", "Panoramic roof"],
+      "images": [
+        "https://placehold.co/800x500?text=Forester+Front",
+        "https://placehold.co/800x500?text=Forester+Interior",
+        "https://placehold.co/800x500?text=Forester+Side"
+      ],
+      "badge": null,
+      "listed_date": "2025-04-22",
+      "seller": {
+        "name": "Subaru Specialists",
+        "phone": "+254733345678",
+        "verified": true
+      }
+    },
+    {
+      "id": "v004",
+      "type": "vehicle",
+      "make": "Mercedes-Benz",
+      "model": "C200",
+      "year": 2023,
+      "price": 6800000,
+      "currency": "KES",
+      "mileage": 12000,
+      "mileage_unit": "km",
+      "condition": "nearly new",
+      "transmission": "automatic",
+      "fuel_type": "petrol",
+      "engine": "1.5L Mild Hybrid",
+      "color": "Obsidian Black",
+      "body_type": "Sedan",
+      "doors": 4,
+      "seats": 5,
+      "drive_train": "RWD",
+      "location": "Nairobi",
+      "description": "Nearly new C200 with full Mercedes warranty remaining. Loaded with AMG line exterior and premium interior.",
+      "features": ["AMG Line", "Burmester sound system", "MBUX infotainment", "Ambient lighting", "Wireless charging", "Night package"],
+      "images": [
+        "https://placehold.co/800x500?text=C200+Front",
+        "https://placehold.co/800x500?text=C200+Interior",
+        "https://placehold.co/800x500?text=C200+Rear"
+      ],
+      "badge": "Nearly New",
+      "listed_date": "2025-06-15",
+      "seller": {
+        "name": "AutoHub Kenya",
+        "phone": "+254712345678",
+        "verified": true
+      }
+    },
+    {
+      "id": "v005",
+      "type": "vehicle",
+      "make": "Toyota",
+      "model": "Hilux",
+      "year": 2021,
+      "price": 4100000,
+      "currency": "KES",
+      "mileage": 55000,
+      "mileage_unit": "km",
+      "condition": "used",
+      "transmission": "manual",
+      "fuel_type": "diesel",
+      "engine": "2.8L GD-6",
+      "color": "Graphite Grey",
+      "body_type": "Pickup",
+      "doors": 4,
+      "seats": 5,
+      "drive_train": "4WD",
+      "location": "Nakuru",
+      "description": "Double cab Hilux in great working condition. Ideal for both urban and off-road use. Bull bar and canopy included.",
+      "features": ["Bull bar", "Canopy", "Reverse camera", "Tow bar", "Diff lock"],
+      "images": [
+        "https://placehold.co/800x500?text=Hilux+Front",
+        "https://placehold.co/800x500?text=Hilux+Bed",
+        "https://placehold.co/800x500?text=Hilux+Interior"
+      ],
+      "badge": null,
+      "listed_date": "2025-03-30",
+      "seller": {
+        "name": "Nakuru Auto Mart",
+        "phone": "+254744345678",
+        "verified": false
+      }
+    },
+    {
+      "id": "v006",
+      "type": "vehicle",
+      "make": "Honda",
+      "model": "Vezel",
+      "year": 2022,
+      "price": 2900000,
+      "currency": "KES",
+      "mileage": 38000,
+      "mileage_unit": "km",
+      "condition": "used",
+      "transmission": "CVT",
+      "fuel_type": "hybrid",
+      "engine": "1.5L i-MMD Hybrid",
+      "color": "Platinum White",
+      "body_type": "Crossover",
+      "doors": 5,
+      "seats": 5,
+      "drive_train": "FWD",
+      "location": "Nairobi",
+      "description": "Fuel-efficient hybrid Vezel with low running costs. Excellent urban runabout with Honda Sensing suite.",
+      "features": ["Honda Sensing", "Honda Connect", "Wireless CarPlay", "LED headlights", "Heated mirrors"],
+      "images": [
+        "https://placehold.co/800x500?text=Vezel+Front",
+        "https://placehold.co/800x500?text=Vezel+Interior",
+        "https://placehold.co/800x500?text=Vezel+Side"
+      ],
+      "badge": "Eco Choice",
+      "listed_date": "2025-05-28",
+      "seller": {
+        "name": "Honda Kenya Dealers",
+        "phone": "+254755345678",
+        "verified": true
+      }
+    }
+  ],
+
+  "accessories": [
+    {
+      "id": "a001",
+      "type": "accessory",
+      "category": "projectors",
+      "name": "AutoBeam Pro X1 LED Projector Headlights",
+      "brand": "AutoBeam",
+      "sku": "AB-PRJ-X1",
+      "price": 18500,
+      "currency": "KES",
+      "rating": 4.5,
+      "reviews_count": 38,
+      "stock": 12,
+      "compatibility": ["Universal fit", "H4", "H7", "H11"],
+      "description": "High-performance LED projector headlight kit. 6000K white beam, 200% brighter than standard halogens. Plug-and-play installation.",
+      "specs": {
+        "wattage": "55W per pair",
+        "color_temp": "6000K",
+        "lifespan": "30,000 hours",
+        "waterproof": "IP67"
+      },
+      "images": [
+        "https://placehold.co/600x400?text=LED+Projector+Front",
+        "https://placehold.co/600x400?text=LED+Projector+Installed"
+      ],
+      "badge": "Best Seller",
+      "listed_date": "2025-01-15"
+    },
+    {
+      "id": "a002",
+      "type": "accessory",
+      "category": "speakers",
+      "name": "Kenwood KFC-S1796 6.5\" 2-Way Speakers",
+      "brand": "Kenwood",
+      "sku": "KW-SPK-S1796",
+      "price": 6800,
+      "currency": "KES",
+      "rating": 4.7,
+      "reviews_count": 92,
+      "stock": 25,
+      "compatibility": ["Universal fit", "6.5 inch door"],
+      "description": "Crystal clear 2-way coaxial speakers with 250W peak power. Easy drop-in replacement for factory speakers.",
+      "specs": {
+        "power_peak": "250W",
+        "power_rms": "30W",
+        "sensitivity": "91dB",
+        "frequency": "35Hz - 22kHz",
+        "impedance": "4 Ohm"
+      },
+      "images": [
+        "https://placehold.co/600x400?text=Kenwood+Speakers",
+        "https://placehold.co/600x400?text=Speaker+Installed"
+      ],
+      "badge": "Top Rated",
+      "listed_date": "2024-11-10"
+    },
+    {
+      "id": "a003",
+      "type": "accessory",
+      "category": "speakers",
+      "name": "Pioneer TS-A1670F 6.5\" 3-Way Speakers",
+      "brand": "Pioneer",
+      "sku": "PI-SPK-A1670F",
+      "price": 8200,
+      "currency": "KES",
+      "rating": 4.6,
+      "reviews_count": 67,
+      "stock": 18,
+      "compatibility": ["Universal fit", "6.5 inch door"],
+      "description": "Warm, detailed sound with Pioneer's 3-way driver design. IMPP cone woofer for rich bass response.",
+      "specs": {
+        "power_peak": "320W",
+        "power_rms": "45W",
+        "sensitivity": "92dB",
+        "frequency": "28Hz - 25kHz",
+        "impedance": "4 Ohm"
+      },
+      "images": [
+        "https://placehold.co/600x400?text=Pioneer+Speakers",
+        "https://placehold.co/600x400?text=Pioneer+Installed"
+      ],
+      "badge": null,
+      "listed_date": "2024-12-05"
+    },
+    {
+      "id": "a004",
+      "type": "accessory",
+      "category": "gps_trackers",
+      "name": "TrackPro GT06N GPS Tracker",
+      "brand": "TrackPro",
+      "sku": "TP-GPS-GT06N",
+      "price": 4500,
+      "currency": "KES",
+      "rating": 4.4,
+      "reviews_count": 154,
+      "stock": 40,
+      "compatibility": ["Universal fit", "12V vehicles"],
+      "description": "Real-time GPS tracking with live location on mobile app. Geofencing, speed alerts, engine cut-off remote control. Works on all major Kenyan networks.",
+      "specs": {
+        "sim_type": "Micro SIM",
+        "networks": "2G/3G",
+        "accuracy": "5-10 meters",
+        "battery_backup": "500mAh",
+        "app": "iOS & Android"
+      },
+      "images": [
+        "https://placehold.co/600x400?text=GPS+Tracker",
+        "https://placehold.co/600x400?text=GPS+App+View"
+      ],
+      "badge": "Best Seller",
+      "listed_date": "2024-09-20"
+    },
+    {
+      "id": "a005",
+      "type": "accessory",
+      "category": "gps_trackers",
+      "name": "Concox AT4 Advanced GPS Tracker",
+      "brand": "Concox",
+      "sku": "CX-GPS-AT4",
+      "price": 7800,
+      "currency": "KES",
+      "rating": 4.8,
+      "reviews_count": 89,
+      "stock": 15,
+      "compatibility": ["Universal fit", "12V/24V vehicles"],
+      "description": "4G LTE tracker with crash detection, tamper alerts, and driver behavior monitoring. Ideal for fleet management.",
+      "specs": {
+        "sim_type": "Nano SIM",
+        "networks": "4G LTE",
+        "accuracy": "2-5 meters",
+        "battery_backup": "1000mAh",
+        "app": "iOS & Android + Web Portal"
+      },
+      "images": [
+        "https://placehold.co/600x400?text=Concox+Tracker",
+        "https://placehold.co/600x400?text=Concox+Dashboard"
+      ],
+      "badge": "Premium",
+      "listed_date": "2025-02-14"
+    },
+    {
+      "id": "a006",
+      "type": "accessory",
+      "category": "cameras",
+      "name": "Viofo A139 Pro Front + Rear Dash Cam",
+      "brand": "Viofo",
+      "sku": "VF-CAM-A139P",
+      "price": 14500,
+      "currency": "KES",
+      "rating": 4.7,
+      "reviews_count": 44,
+      "stock": 9,
+      "compatibility": ["Universal fit"],
+      "description": "4K front and 2K rear dual dash camera. Sony Starvis 2 sensor for excellent night vision. Built-in WiFi and GPS.",
+      "specs": {
+        "front_resolution": "4K 30fps",
+        "rear_resolution": "2K 30fps",
+        "fov_front": "140°",
+        "fov_rear": "130°",
+        "storage": "MicroSD up to 256GB",
+        "features": ["WiFi", "GPS", "Parking mode", "G-sensor"]
+      },
+      "images": [
+        "https://placehold.co/600x400?text=Viofo+Dashcam",
+        "https://placehold.co/600x400?text=Dashcam+Footage"
+      ],
+      "badge": "New Arrival",
+      "listed_date": "2025-06-01"
+    },
+    {
+      "id": "a007",
+      "type": "accessory",
+      "category": "cameras",
+      "name": "Universal HD Reverse Parking Camera",
+      "brand": "ClearView",
+      "sku": "CV-CAM-REV01",
+      "price": 2800,
+      "currency": "KES",
+      "rating": 4.2,
+      "reviews_count": 201,
+      "stock": 60,
+      "compatibility": ["Universal fit", "Most head units"],
+      "description": "Wide-angle 170° reverse camera with night vision LEDs. Waterproof casing. Works with any aftermarket head unit.",
+      "specs": {
+        "resolution": "720p",
+        "fov": "170°",
+        "night_vision": "8 IR LEDs",
+        "waterproof": "IP68",
+        "cable_length": "6 meters"
+      },
+      "images": [
+        "https://placehold.co/600x400?text=Reverse+Camera",
+        "https://placehold.co/600x400?text=Camera+View"
+      ],
+      "badge": null,
+      "listed_date": "2024-08-10"
+    },
+    {
+      "id": "a008",
+      "type": "accessory",
+      "category": "infotainment",
+      "name": "Pioneer DMH-WT8600NEX 10.1\" Head Unit",
+      "brand": "Pioneer",
+      "sku": "PI-HU-WT8600",
+      "price": 52000,
+      "currency": "KES",
+      "rating": 4.9,
+      "reviews_count": 31,
+      "stock": 5,
+      "compatibility": ["Universal DIN 2 fit", "Most sedans and SUVs"],
+      "description": "Flagship 10.1\" floating touchscreen with wireless Apple CarPlay and Android Auto. Built-in DSP and 13-band EQ.",
+      "specs": {
+        "screen_size": "10.1 inch",
+        "resolution": "1280x720",
+        "apple_carplay": "Wireless",
+        "android_auto": "Wireless",
+        "bluetooth": "5.0",
+        "built_in_dsp": true,
+        "pre_outs": "6",
+        "max_output": "50W x 4"
+      },
+      "images": [
+        "https://placehold.co/600x400?text=Pioneer+Head+Unit",
+        "https://placehold.co/600x400?text=CarPlay+Screen"
+      ],
+      "badge": "Premium",
+      "listed_date": "2025-03-20"
+    },
+    {
+      "id": "a009",
+      "type": "accessory",
+      "category": "infotainment",
+      "name": "Kenwood DMX5020DABS 6.8\" Head Unit",
+      "brand": "Kenwood",
+      "sku": "KW-HU-DMX5020",
+      "price": 28000,
+      "currency": "KES",
+      "rating": 4.5,
+      "reviews_count": 58,
+      "stock": 11,
+      "compatibility": ["Universal DIN 2 fit"],
+      "description": "Affordable yet capable head unit with wired CarPlay/Android Auto. Clean interface, easy to install.",
+      "specs": {
+        "screen_size": "6.8 inch",
+        "resolution": "800x480",
+        "apple_carplay": "Wired",
+        "android_auto": "Wired",
+        "bluetooth": "4.1",
+        "built_in_dsp": false,
+        "pre_outs": "4",
+        "max_output": "50W x 4"
+      },
+      "images": [
+        "https://placehold.co/600x400?text=Kenwood+Head+Unit",
+        "https://placehold.co/600x400?text=Kenwood+Android+Auto"
+      ],
+      "badge": "Best Value",
+      "listed_date": "2025-01-08"
+    },
+    {
+      "id": "a010",
+      "type": "accessory",
+      "category": "projectors",
+      "name": "Osram Night Breaker H7 Upgrade Bulbs",
+      "brand": "Osram",
+      "sku": "OS-PRJ-H7NB",
+      "price": 3200,
+      "currency": "KES",
+      "rating": 4.3,
+      "reviews_count": 115,
+      "stock": 35,
+      "compatibility": ["H7 socket vehicles"],
+      "description": "Up to 150% more light on the road vs standard halogen. Legal for road use. OEM quality German engineering.",
+      "specs": {
+        "wattage": "55W",
+        "color_temp": "3200K",
+        "light_increase": "150%",
+        "lifespan": "1,000 hours",
+        "certification": "ECE R37"
+      },
+      "images": [
+        "https://placehold.co/600x400?text=Osram+Bulbs",
+        "https://placehold.co/600x400?text=Night+Comparison"
+      ],
+      "badge": null,
+      "listed_date": "2024-07-15"
+    }
+  ],
+
+  "categories": [
+    { "id": "cat1", "slug": "vehicles", "label": "Vehicles", "icon": "car", "count": 6 },
+    { "id": "cat2", "slug": "projectors", "label": "Projectors & Lights", "icon": "lightbulb", "count": 2 },
+    { "id": "cat3", "slug": "speakers", "label": "Speakers", "icon": "speaker", "count": 2 },
+    { "id": "cat4", "slug": "gps_trackers", "label": "GPS Trackers", "icon": "map-pin", "count": 2 },
+    { "id": "cat5", "slug": "cameras", "label": "Cameras", "icon": "camera", "count": 2 },
+    { "id": "cat6", "slug": "infotainment", "label": "Infotainment", "icon": "monitor", "count": 2 }
+  ],
+
+  "filters": {
+    "vehicles": {
+      "makes": ["Toyota", "Mazda", "Subaru", "Mercedes-Benz", "Honda"],
+      "body_types": ["SUV", "Sedan", "Pickup", "Crossover", "Hatchback"],
+      "fuel_types": ["Petrol", "Diesel", "Hybrid", "Electric"],
+      "transmissions": ["Automatic", "Manual", "CVT"],
+      "conditions": ["New", "Nearly New", "Used"],
+      "price_ranges": [
+        { "label": "Under KES 2M", "min": 0, "max": 2000000 },
+        { "label": "KES 2M – 4M", "min": 2000000, "max": 4000000 },
+        { "label": "KES 4M – 7M", "min": 4000000, "max": 7000000 },
+        { "label": "Over KES 7M", "min": 7000000, "max": null }
+      ],
+      "locations": ["Nairobi", "Mombasa", "Nakuru", "Kisumu", "Eldoret"]
+    },
+    "accessories": {
+      "brands": ["Pioneer", "Kenwood", "Viofo", "TrackPro", "Concox", "AutoBeam", "Osram", "ClearView"],
+      "price_ranges": [
+        { "label": "Under KES 5K", "min": 0, "max": 5000 },
+        { "label": "KES 5K – 15K", "min": 5000, "max": 15000 },
+        { "label": "KES 15K – 30K", "min": 15000, "max": 30000 },
+        { "label": "Over KES 30K", "min": 30000, "max": null }
+      ],
+      "ratings": [4, 3, 2]
+    }
+  },
+
+  "featured": {
+    "hero_vehicles": ["v001", "v004", "v006"],
+    "featured_accessories": ["a001", "a004", "a008"]
+  }
+}
